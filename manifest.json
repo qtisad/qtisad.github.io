@@ -1,24 +1,26 @@
 {
-  "name": "QtisaD | تطبيق قتصاد",
-  "short_name": "QtisaD",
-  "description": "اعرف كم تستطيع أن تنفق اليوم — مجاني، بدون ربط بنكي، يعمل بدون إنترنت.",
+  "name": "Qtisad",
+  "short_name": "Qtisad",
+  "description": "Know how much you can spend today. Free, no bank linking, works offline.",
   "id": "./",
   "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "lang": "ar",
-  "dir": "rtl",
+  "lang": "en",
+  "dir": "ltr",
   "background_color": "#022619",
   "theme_color": "#040a06",
-  "categories": ["finance", "productivity"],
-  "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  "categories": [
+    "finance",
+    "productivity"
   ],
-  "shortcuts": [
-    { "name": "مصروف سريع", "short_name": "مصروف", "url": "./?action=expense", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
-    { "name": "مذكرة", "short_name": "مذكرة", "url": "./?action=note", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
-  ]
-}
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
