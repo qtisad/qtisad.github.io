@@ -1,0 +1,24 @@
+{
+  "name": "QtisaD | قتصاد",
+  "short_name": "QtisaD",
+  "description": "اعرف كم تستطيع أن تنفق اليوم — مجاني، بدون ربط بنكي، يعمل بدون إنترنت.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "ar",
+  "dir": "rtl",
+  "background_color": "#022619",
+  "theme_color": "#040a06",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "مصروف سريع", "short_name": "مصروف", "url": "./?action=expense", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "مذكرة", "short_name": "مذكرة", "url": "./?action=note", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
