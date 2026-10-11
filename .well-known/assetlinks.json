@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.qtisad",
+    "sha256_cert_fingerprints": ["CD:2F:CC:D3:7B:00:96:D9:90:49:45:43:3B:7F:F2:E7:FA:E4:E9:EA:1C:08:9C:BD:3A:AA:16:5F:9C:39:55:43"]
+  }
+}]
