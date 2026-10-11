@@ -811,15 +811,16 @@ html[dir="rtl"] #setupSaveBtn .btn-arrow{transform:scaleX(-1)}
       <div class="hint" id="pinDisclosure" style="margin-top:-4px;margin-bottom:12px;font-size:0.6875rem;">🔒 الرمز قفل واجهة محلي فقط. البيانات غير مشفّرة على الجهاز. من يصل إلى تخزين الجهاز يستطيع قراءتها.</div>
       <button class="btn btn-ghost btn-sm w-100 d-none" id="changePinBtn" >🔑 تغيير الرمز</button>
       <h3 class="section-title"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a5 5 0 0 0-5 5v3.5c0 .7-.3 1.4-.8 1.9L5 15h14l-1.2-1.6c-.5-.5-.8-1.2-.8-1.9V8a5 5 0 0 0-5-5z"/><path d="M9.5 19a2.5 2.5 0 0 0 5 0"/></svg><span>التنبيهات</span></h3>
-      <div class="toggle-row">
+      <div class="toggle-row" style="display:none">
         <div class="toggle-label">تنبيهات ساعية<span class="toggle-sub">يخبرك بأرباحك كل ساعة</span></div>
         <label class="switch"><input type="checkbox" id="notifyToggle"><span class="track"></span><span class="thumb"></span></label>
       </div>
-      <div class="toggle-row">
+      <div class="toggle-row" style="display:none">
         <div class="toggle-label">تنبيه الفواتير<span class="toggle-sub">قبل 3 أيام من الاستحقاق</span></div>
         <label class="switch"><input type="checkbox" id="billNotifyToggle" checked><span class="track"></span><span class="thumb"></span></label>
       </div>
       <button class="btn btn-gold w-100 mt-16" id="settingsSaveBtn"><svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z"/><path d="M17 21v-8H7v8"/><path d="M7 3v5h8"/></svg><span class="ms-2">حفظ الإعدادات</span></button>
+      <div style="margin-top:20px;text-align:center;"><a href="privacy.html" id="privacyLink" style="color:var(--text-dim);font-size:0.875rem;text-decoration:underline;">سياسة الخصوصية · Privacy Policy</a></div>
       <section class="card" id="dangerCard" style="margin-top:24px;border-color:var(--danger);">
         <h2 class="card-title"><div class="title-left"><span class="ico"><span class="icon-line" style="margin-inline-end:0;color:var(--danger);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="0.8" fill="currentColor" stroke="none"/></svg></span></span><span id="dangerTitleTxt"></span></div></h2>
         <button class="btn btn-danger-ghost btn-sm w-100" id="resetBtn"></button>
